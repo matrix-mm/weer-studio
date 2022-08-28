@@ -57,13 +57,13 @@
       <div class="container">
         <router-link
           class="cta prev"
-          :to="`/project/${previous_project.url}`"
+          :to="`/projects/${previous_project.url}`"
         >
           &lt; PREVIOUS
         </router-link>
         <router-link
           class="cta next"
-          :to="`/project/${next_project.url}`"
+          :to="`/projects/${next_project.url}`"
         >
           NEXT &gt;
         </router-link>

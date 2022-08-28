@@ -7,7 +7,7 @@
       </div>
       <div class="clear" />
       <br>
-      <nuxt-link v-in-viewport class="project-featured" to="/project/seacliff">
+      <nuxt-link v-in-viewport class="project-featured" to="/projects/seacliff">
         <div class="project-image">
           <img :src="`/projects/${project_featured.thumb}`">
         </div>
@@ -21,7 +21,7 @@
           :key="project.url"
           v-in-viewport
           class="project"
-          :to="`/project/${project.url}`"
+          :to="`/projects/${project.url}`"
         >
           <div class="project-image">
             <img :src="`/projects/${project.thumb}`" alt="Project">

@@ -3,9 +3,9 @@
 const colors = require('./assets/colors.json')
 
 const config = {
-  title: 'Catherine Kwong Design',
+  title: 'WEER',
   description: 'An acclaimed San Francisco interior design firm. Catherine Kwong Design specializes in high-end residential and hospitality projects, with an emphasis on modern architecture and custom detailing. The firm brings a fresh approach to elegant, tailored interiors — mixing modern with vintage; fine art with personal treasures — to create moments of unexpected beauty.',
-  url: 'https://catherinekwong.com',
+  url: 'https://weer-studio.vercel.app/',
   image: '/share.jpg',
   keywords: 'design, interior'
 }
@@ -29,7 +29,7 @@ module.exports = {
   ** Headers
   */
   head: {
-    title: 'Catherine Kwong Design',
+    title: 'WEER',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
