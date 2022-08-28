@@ -9,7 +9,7 @@
         v-in-viewport
         class="title is-froly"
       >
-        established 2011
+        established 2022
       </div>
       <div
         v-if="page === 'Contact'"
@@ -51,7 +51,7 @@
         v-in-viewport
         class="quote"
       >
-        <p>Kwong’s keen interest in modern architecture informs her inviting yet disciplined interiors, where the subtlest nuances sing.</p><i>- Architectual Digest</i>
+        <p>Weer interest in modern architecture informs their inviting yet disciplined interiors, where the subtlest nuances sing.</p><i>- Architectual Digest</i>
       </div>
       <div
         v-if="page === 'Jobs'"
@@ -69,7 +69,7 @@
           <div class="block">
             <div class="title is-c4b">
               GIVE US A CALL
-            </div><a href="tel:4157355109">415.735.5190</a>
+            </div><a href="tel:095005676">09 500 5676</a>
           </div>
         </div>
         <div
@@ -80,7 +80,7 @@
           <div class="block">
             <div class="title is-c4b">
               DROP US A LINE
-            </div><a href="mailto:hello@catherinekwong.com">E-mail</a><a href="mailto:media@catherinekwong.com">Media Inquires</a>
+            </div><a href="mailto:weer.arch.mm@gmail.com">E-mail</a><a href="mailto:weer.arch.mm@gmail.com">Media Inquires</a>
           </div>
         </div>
         <div
@@ -92,12 +92,12 @@
             <div class="title is-c4b">
               SEND US MAIL
             </div><a
-              href="https://goo.gl/maps/jKFZqnJU4P6c9"
+              href="https://goo.gl/maps/uCQvNXV2gSdF3aTv7"
               target="_new"
-            >3450 Sacramento Street #519</a><a
-              href="https://goo.gl/maps/jKFZqnJU4P6c9"
+            >35/1028, Bo Yarzar Street</a><a
+              href="https://goo.gl/maps/uCQvNXV2gSdF3aTv7"
               target="_new"
-            >San Francisco, CA 94118</a>
+            >North Dagon Township, Yangon</a>
           </div>
         </div>
       </div>
@@ -106,7 +106,7 @@
         v-in-viewport
         class="copy is-c4"
       >
-        Catherine Kwong Design specializes in high-end residential and hospitality projects, with an emphasis on modern architecture and custom detailing. The firm brings a fresh approach to elegant, tailored interiors-mixing modern with vintage; high art with personal treasures- to create moments of unexpected beauty.
+        Weer Design specializes in high-end residential and hospitality projects, with an emphasis on modern architecture and custom detailing. The firm brings a fresh approach to elegant, tailored interiors-mixing modern with vintage; high art with personal treasures- to create moments of unexpected beauty.
       </div>
       <div class="clear" />
     </div>

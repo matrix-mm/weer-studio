@@ -1,3 +1,4 @@
+<!-- eslint-disable vue/multi-word-component-names -->
 <template>
   <div
     id="Jobs"
@@ -91,25 +92,24 @@
       >
         To apply for a position, please submit a resume and portfolio to <a
           class="is-bunker"
-          href="mailto:careers@catherinekwong.com"
-        >careers@catherinekwong.com.</a>
+          href="mailto:weer.arch.mm@gmail.com"
+        >weer.arch.mm@gmail.com</a>
       </div>
     </div>
   </div>
 </template>
 
 <script>
-import Card from '~/components/Card.vue'
 import inViewportDirective from 'vue-in-viewport-directive'
+import Card from '~/components/Card.vue'
 export default {
   components: { Card },
   directives: { 'in-viewport': inViewportDirective },
   created () {
     this.$store.commit('menuColor', 'black')
-  },
+  }
 }
 </script>
-
 
 <style lang="stylus">
 @import '../assets/stylus/mixins'

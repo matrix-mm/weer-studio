@@ -1,3 +1,4 @@
+<!-- eslint-disable vue/multi-word-component-names -->
 <template>
   <div
     id="Bottom"
@@ -6,16 +7,13 @@
     <div class="container">
       <div class="footer">
         <div class="copy is-c1sb">
-          &copy; CATHERINE KWONG DESIGN, 2011
+          &copy; WEER STUDIO, 2022
         </div>
         <div class="copy is-c1sb">
           SITE BY<a
-            href="https://designsakestudio.com"
+            href="https://matrixmyanmar.netlify.app/"
             target="_new"
-          >DESIGNSAKE STUDIO</a> &amp;<a
-            href="https://256.io"
-            target="_new"
-          >256</a>
+          >MATRiX</a>
         </div>
       </div>
       <div class="clear" />
