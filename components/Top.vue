@@ -45,24 +45,10 @@
             </router-link>
             <router-link
               class="option is-h4"
-              to="/press"
-              @click.native="on = false"
-            >
-              Press
-            </router-link>
-            <router-link
-              class="option is-h4"
               to="/contact"
               @click.native="on = false"
             >
               Contact
-            </router-link>
-            <router-link
-              class="option is-h4"
-              to="/careers"
-              @click.native="on = false"
-            >
-              Careers
             </router-link>
           </div>
           <CAddress />

@@ -1,3 +1,4 @@
+<!-- eslint-disable vue/multi-word-component-names -->
 <template>
   <div
     id="Press"
@@ -94,14 +95,14 @@
 </template>
 
 <script>
-import Card from '~/components/Card.vue'
 import inViewportDirective from 'vue-in-viewport-directive'
+import Card from '~/components/Card.vue'
 export default {
   components: { Card },
   directives: { 'in-viewport': inViewportDirective },
   created () {
     this.$store.commit('menuColor', 'black')
-  },
+  }
 }
 </script>
 
