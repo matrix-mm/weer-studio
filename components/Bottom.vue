@@ -10,7 +10,7 @@
           &copy; WEER STUDIO, 2022
         </div>
         <div class="copy is-c1sb">
-          SITE BY<a
+          SITE BY&nbsp;<a
             href="https://matrixmyanmar.netlify.app/"
             target="_new"
           >MATRiX</a>

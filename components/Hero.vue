@@ -37,6 +37,49 @@
   </div>
 </template>
 
+<style lang="stylus">
+  @import '../assets/stylus/mixins'
+  .hero
+    background-size cover
+    background-position 50% 50%
+    position relative
+    &.hero-Home
+      height 100vh
+      background-image url('/banner.jpg')
+    &.hero-Contact
+      height 80vh
+      background-image url('/contact.jpg')
+    > .container
+      height 100%
+
+      > .logo
+        width 800px
+        margin auto
+        margin-top 22vh
+        inViewportScale(0)
+        > svg > path
+          fill white
+      > .seal
+        inViewportFade(0.2)
+      > .address
+        inViewportFade(0.3)
+      > .socials
+        inViewportFade(0.4)
+
+  @media all and (min-width: 1px) and (max-width: 1000px)
+    .hero
+      > .container
+        > .logo
+          margin-top 25vh
+          width 90%
+          height 260px
+        > .address
+          display none
+        > .socials
+          display none
+
+  </style>
+
 <script>
 import inViewportDirective from 'vue-in-viewport-directive'
 import SvgSeal from './svg/SvgSeal'
@@ -79,46 +122,3 @@ export default {
   }
 }
 </script>
-
-<style lang="stylus">
-@import '../assets/stylus/mixins'
-.hero
-  background-size cover
-  background-position 50% 50%
-  position relative
-  &.hero-Home
-    height 100vh
-    background-image url('/banner.jpg')
-  &.hero-Contact
-    height 80vh
-    background-image url('/contact.jpg')
-  > .container
-    height 100%
-
-    > .logo
-      width 800px
-      margin auto
-      margin-top 22vh
-      inViewportScale(0)
-      > svg > path
-        fill white
-    > .seal
-      inViewportFade(0.2)
-    > .address
-      inViewportFade(0.3)
-    > .socials
-      inViewportFade(0.4)
-
-@media all and (min-width: 1px) and (max-width: 1000px)
-  .hero
-    > .container
-      > .logo
-        margin-top 25vh
-        width 90%
-        height 260px
-      > .address
-        display none
-      > .socials
-        display none
-
-</style>

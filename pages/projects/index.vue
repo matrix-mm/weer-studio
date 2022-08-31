@@ -36,8 +36,8 @@
 </template>
 
 <style lang="stylus">
-  @import '../../assets/stylus/mixins'
-  json('../../assets/colors.json')
+  @import '/../../assets/stylus/mixins'
+  json('/../../assets/colors.json')
   #Projects
     > .container
       padding 60px 0
