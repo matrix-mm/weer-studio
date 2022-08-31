@@ -1,3 +1,4 @@
+/* eslint-disable no-dupe-keys */
 /*
  * projects.js - shared mixin of all projects
  * Copyright (C) 2019 kevin olson <acidjazz@gmail.com>
@@ -9,34 +10,26 @@ export default {
     return {
       projects: [
         {
-          url: 'hawaii',
-          folder: 'hawaii',
-          thumb: 'CKD_344x290_Hawaii.jpg',
+          url: 'penthouse-yangon',
+          folder: 'penthouse-yangon',
+          thumb: 'WEER_344x290_Penthouse.png',
           order: 1,
-          location: 'KONA, HI',
-          hover: 'HAWAII',
-          title: 'HAWAII BEACH HOUSE',
-          copy: 'Cue the sound of ocean waves… Designing this modern Hawaii home was a dream come true. Zak Architecture created a perfect family of structures, nestled around a central courtyard. Raw cedar, white painted boards, and lava stone floors formed the materials palette, and the furnishings followed a single directive: elegance in simplicity.  A vintage Prouve daybed sits next to a deep sofa, perfect for lounging. Polished blocks of anthracite coal are used as tables, and handblown glass pendants hang from custom woven leather cords.  Large-scale artwork anchors each room, and it all lends itself to the reason for being there: expansive views out to those ocean waves.',
+          location: 'YANGON',
+          hover: 'PENTHOUSE',
+          title: 'PENTHOUSE (Yangon)',
+          copy: "This penthouse project, located in North Dagon Township, is created with the aim of providing a 'safe space', an escape from the tediousness and stresses of conventional lifestyle. The design approach is to accomodate a compact, simple and minimalistic space within confined site with limitations.",
           hero: {
-            file: 'CatherineKwongDesign_Hawaii_1216x800px_1.jpg',
+            file: 'Penthouse_Yangon_1216x800px_1.png',
             width: 1216,
             height: 800
           },
           gallery: {
             // 'CatherineKwongDesign_Hawaii_1176x774px_1.jpg': '',
-            'CatherineKwongDesign_Hawaii_392x555px_2.jpg': 'is-left',
-            'CatherineKwongDesign_Hawaii_724x555px_3.jpg': 'is-right',
-            'CatherineKwongDesign_Hawaii_558x395px_4.jpg': 'is-left',
-            'CatherineKwongDesign_Hawaii_558x850px_6.jpg': 'is-right',
-            'CatherineKwongDesign_Hawaii_558x395px_5.jpg': 'is-left',
-            'CatherineKwongDesign_Hawaii_1176x760px_7.jpg': 'is-full',
-            // 'CatherineKwongDesign_Hawaii_1216x786px_7.jpg': '',
-            'CatherineKwongDesign_Hawaii_766x570px_8.jpg': 'is-left',
-            'CatherineKwongDesign_Hawaii_350x570px_9.jpg': 'is-right',
-            'CatherineKwongDesign_Hawaii_558x780px_10.jpg': 'is-left',
-            'CatherineKwongDesign_Hawaii_558x780px_11.jpg': 'is-right',
-            'CatherineKwongDesign_Hawaii_1176x1120px_12.jpg': 'is-full'
-            // 'CatherineKwongDesign_Hawaii_1216x1158px_12.jpg': '',
+            'Penthouse_Yangon_1920x1080px_2.jpg': 'is-full',
+            'Penthouse_Yangon_1920x1080px_3.jpg': 'is-full',
+            'Penthouse_Yangon_1920x1080px_4.jpg': 'is-full',
+            'Penthouse_Yangon_1920x1080px_5.jpg': 'is-full',
+            'Penthouse_Yangon_1920x1080px_6.jpg': 'is-full'
           }
         }, {
           url: 'pacificheightscontemporary',
@@ -264,34 +257,38 @@ export default {
             'CatherineKwongDesign_PresidioHeightsModern_1216x716px_11.jpg': 'is-full',
           }
         }, */ {
-          url: 'seacliff',
-          folder: 'seacliff',
-          thumb: 'CKD_Seacliff.jpg',
-          location: 'SAN FRANCISCO, CA',
+          url: 'biodiversity-education-center',
+          folder: 'biodiversity-education-center',
+          thumb: 'WEER_Biodiversity-education-center.jpg',
+          location: 'Kachin - Putao',
           featured: true,
-          title: 'SEACLIFF RETREAT',
-          hover: 'SEACLIFF',
+          title: 'Biodiversity Education Center - Putao',
+          hover: 'Biodiversity Education Center',
           copy: '',
           hero: {
-            file: 'CatherineKwongDesign_SeacliffRetreat_2054x1352_1.jpg',
+            file: 'Biodiversity Education Center_2048x1365_1.jpg',
             width: 1000,
             height: 8000
           },
           gallery: {
             // 'CatherineKwongDesign_SeacliffRetreat_1216x800_1.jpg': '',
-            'CatherineKwongDesign_SeacliffRetreat_558x750_4.jpg': 'is-right is-double',
-            'CatherineKwongDesign_SeacliffRetreat_558x345_2.jpg': 'is-left',
-            'CatherineKwongDesign_SeacliffRetreat_558x345_3.jpg': 'is-left',
-            'CatherineKwongDesign_SeacliffRetreat_1216x800_5.jpg': 'is-full',
-            'CatherineKwongDesign_SeacliffRetreat_392x543_6.jpg': 'is-left',
-            'CatherineKwongDesign_SeacliffRetreat_724x543_7.jpg': 'is-right',
+            'Biodiversity Education Center_1080x1080_2.jpg': 'is-full',
+            'Biodiversity Education Center_1080x1080_3.jpg': 'is-full',
+            'Biodiversity Education Center_1080x1080_4.jpg': 'is-full',
+            'Biodiversity Education Center_1080x1080_5.jpg': 'is-full',
+            'Biodiversity Education Center_1080x1080_6.jpg': 'is-full',
+            'Biodiversity Education Center_1080x1080_7.jpg': 'is-full',
 
-            'CatherineKwongDesign_SeacliffRetreat_724x543_8.jpg': 'is-left',
-            'CatherineKwongDesign_SeacliffRetreat_392x543_9.jpg': 'is-right',
+            'Biodiversity Education Center_1080x1080_8.jpg': 'is-full',
+            'Biodiversity Education Center_1080x1080_9.jpg': 'is-full',
 
-            'CatherineKwongDesign_SeacliffRetreat_724x543_10_.jpg': 'is-left',
-            'CatherineKwongDesign_SeacliffRetreat_392x543_11.jpg': 'is-right is-double',
-            'CatherineKwongDesign_SeacliffRetreat_1216x800_12.jpg': 'is-full'
+            'Biodiversity Education Center_1080x1080_10.jpg': 'is-full',
+            'Biodiversity Education Center_1080x1080_11.jpg': 'is-full',
+            'Biodiversity Education Center_392x543_12.jpg': 'is-left',
+            'Biodiversity Education Center_392x543_13.jpg': 'is-right',
+            'Biodiversity Education Center_558x345_14.jpg': 'is-left',
+            'Biodiversity Education Center_558x345_15.jpg': 'is-right'
+
           }
         }
       ]

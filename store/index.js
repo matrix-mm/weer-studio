@@ -1,7 +1,7 @@
 
 export const state = () => ({
-    modal: false,
-    menu: 'black',
+  modal: false,
+  menu: 'black'
 })
 
 export const mutations = {
@@ -13,5 +13,5 @@ export const mutations = {
   },
   modalOff (state) {
     state.modal = false
-  },
+  }
 }

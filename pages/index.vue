@@ -10,10 +10,17 @@
 </template>
 
 <script>
+
 import Hero from '~/components/Hero.vue'
 import Card from '~/components/Card.vue'
+
 export default {
   components: { Hero, Card },
+  data () {
+    return {
+      isLoading: true
+    }
+  },
   created () {
     this.$store.commit('menuColor', 'white')
   }

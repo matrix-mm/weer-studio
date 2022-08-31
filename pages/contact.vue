@@ -1,3 +1,4 @@
+<!-- eslint-disable vue/multi-word-component-names -->
 <template>
   <div
     id="Contact"
@@ -12,6 +13,6 @@
 import Hero from '~/components/Hero.vue'
 import Card from '~/components/Card.vue'
 export default {
-  components: { Hero, Card },
+  components: { Hero, Card }
 }
 </script>
